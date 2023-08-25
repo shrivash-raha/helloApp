@@ -151,5 +151,7 @@ def analyze_reviews(df):
     
     return df
 
-st.set_page_config(page_title='Customer Reviews Analysis', page_icon='https://upload.wikimedia.org/wikipedia/commons/2/2b/DeloitteNewSmall.png', layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title='Customer Reviews Analysis', 
+                   page_icon='https://upload.wikimedia.org/wikipedia/commons/2/2b/DeloitteNewSmall.png', 
+                   layout="wide", initial_sidebar_state="auto", menu_items=None)
 main()
