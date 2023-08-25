@@ -6,12 +6,7 @@ import plotly.express as px
 import openai
 import tiktoken
 
-import subprocess
-subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
-
-
 openai.api_key = ""
-
 
 # Load English tokenizer, tagger, parser, NER, and word vectors
 nlp = spacy.load("en_core_web_sm")
