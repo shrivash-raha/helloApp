@@ -1,5 +1,4 @@
-spacy
-en_core_web_sm
+spacy>=3.1.0
 textblob
 plotly
 openai
