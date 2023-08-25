@@ -1,0 +1,5 @@
+spacy
+textblob
+plotly
+openai
+tiktoken
