@@ -11,7 +11,7 @@ openai.api_key = ""
 
 
 # Load English tokenizer, tagger, parser, NER, and word vectors
-nlp = spacy.load("en_core_web_sm")
+# nlp = spacy.load("en_core_web_sm")
 
 def main():
     st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Deloitte.svg/1920px-Deloitte.svg.png', width = 150)
